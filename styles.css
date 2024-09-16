@@ -1,87 +1,129 @@
-/* General body styling */
+/* General Styling */
 body {
-  font-family: 'Arial', sans-serif;
-  line-height: 1.6;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f9f9f9;
   margin: 0;
   padding: 0;
-  background-color: #f9f9f9;
   color: #333;
 }
 
-/* Header styling */
+/* Header Styling */
 header {
-  background-color: #333;
-  color: white;
-  padding: 10px 0;
+  background-color: #c8dfd4; /* Pastel Green */
+  padding: 20px 0;
   text-align: center;
-  margin-bottom: 20px;
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Navigation styling */
-nav a {
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+  font-family: 'Poppins', sans-serif;
+}
+
+header nav a {
   color: white;
-  text-decoration: none;
   margin: 0 15px;
+  text-decoration: none;
   font-weight: bold;
+  font-size: 1.2em;
 }
 
-nav a:hover {
+header nav a:hover {
   text-decoration: underline;
 }
 
-/* Main content styling */
-h1 {
+/* Hero Section */
+.hero {
+  background-color: #fbd7e3; /* Pastel Pink */
+  padding: 60px 20px;
+  text-align: center;
+  position: relative;
+}
+
+.hero h2 {
+  font-size: 3em;
+  color: #4c4c4c;
+}
+
+.hero p {
+  font-size: 1.5em;
   color: #333;
+}
+
+.hero button {
+  background-color: #ffd700; /* Pastel Yellow */
+  border: none;
+  padding: 15px 30px;
+  border-radius: 50px;
+  font-size: 1.2em;
+  color: #333;
+  cursor: pointer;
+}
+
+.hero button:hover {
+  background-color: #ffcc00; /* Slightly darker yellow */
+}
+
+/* Call to Action (CTA) */
+.call-to-action {
+  background-color: #ffeecf; /* Light pastel yellow */
+  padding: 40px 20px;
   text-align: center;
 }
 
-p {
-  max-width: 700px;
-  margin: 20px auto;
-  text-align: center;
+.call-to-action h3 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
 }
 
-/* Image styling */
-img {
-  display: block;
-  margin: 20px auto;
-  border-radius: 50%;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+.call-to-action a {
+  color: #fff;
+  background-color: #ff7171;
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 50px;
+  font-size: 1.5em;
 }
 
-/* Footer styling */
+.call-to-action a:hover {
+  background-color: #ff5252;
+}
+
+/* Footer */
 footer {
-  background-color: #333;
+  background-color: #c8dfd4; /* Pastel Green */
   color: white;
   text-align: center;
-  padding: 10px 0;
-  position: absolute;
+  padding: 20px 0;
+  position: relative;
   bottom: 0;
   width: 100%;
 }
 
-/* Add a container for layout */
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
+footer p {
+  margin: 0;
+  font-size: 1.2em;
 }
 
-/* Projects list */
-ul {
-  list-style-type: none;
-  padding: 0;
+/* Adding the Rounded Shapes */
+.rounded-shape {
+  background-color: #fbd7e3; /* Pastel Pink */
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: absolute;
+  top: -100px;
+  left: -100px;
 }
 
-ul li {
-  margin: 15px 0;
-}
-
-ul li a {
-  color: #0073e6;
-  text-decoration: none;
-}
-
-ul li a:hover {
-  text-decoration: underline;
+.rounded-shape2 {
+  background-color: #ffeecf; /* Pastel Yellow */
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -150px;
+  right: -150px;
 }
