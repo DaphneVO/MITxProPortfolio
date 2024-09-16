@@ -1,23 +1,87 @@
+/* General body styling */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  
-  header {
-    background-color: #333;
-    color: white;
-    padding: 15px;
-    text-align: center;
-  }
-  
-  nav a {
-    color: white;
-    margin: 0 15px;
-    text-decoration: none;
-  }
-  
-  h1 {
-    color: #333;
-  }
-  
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Header styling */
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Navigation styling */
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main content styling */
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+p {
+  max-width: 700px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+/* Image styling */
+img {
+  display: block;
+  margin: 20px auto;
+  border-radius: 50%;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer styling */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Add a container for layout */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Projects list */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 15px 0;
+}
+
+ul li a {
+  color: #0073e6;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+}
